@@ -21,9 +21,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 <a href="/bug-report" className="hover:underline">Bug Report</a>
             <a href="/support" className="hover:underline">Support</a>
 <a href="/community" className="hover:underline">Community</a>
+            
           </nav>
         </header>
         <main className="p-4">{children}</main>
+        import Footer from "@/components/Footer";
+
+// Inside your layout
+{children}
+<Footer />
       </body>
     </html>
   );
