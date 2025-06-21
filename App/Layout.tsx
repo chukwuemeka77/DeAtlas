@@ -17,6 +17,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="/tasks" className="hover:underline">Tasks</a>
             <a href="/roadmap" className="hover:underline">Roadmap</a>
             <a href="/qna" className="hover:underline">Q&A</a>
+            <a href="/contact" className="hover:underline">Contact</a>
+<a href="/bug-report" className="hover:underline">Bug Report</a>
             <a href="/support" className="hover:underline">Support</a>
 <a href="/community" className="hover:underline">Community</a>
           </nav>
